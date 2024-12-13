@@ -1,15 +1,18 @@
 
+import Informacao from './Funcionarios'
 import './App.css'
+import dados from './Dados.json'
 
-function App() {
+function Empresa() {
   
 
   return (
-    <>
-   
-      
-    </>
+
+      <div className='app'>
+          <Informacao />
+      </div>
+
   )
 }
 
-export default App
+export default Empresa
